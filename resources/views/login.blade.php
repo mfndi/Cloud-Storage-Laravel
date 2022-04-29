@@ -10,7 +10,7 @@
         <!-- The above 6 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         
         <!-- Title -->
-        <title>Lime - Responsive Admin Dashboard Template</title>
+        <title>Free Cloud Storage</title>
 
         <!-- Styles -->
         <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
@@ -62,11 +62,10 @@
                                     <div class="form-group">
                                         <input type="password" class="form-control" name="password" id="exampleInputPassword1" placeholder="Password">
                                     </div>
-                                    <div class="custom-control custom-checkbox form-group">
-                                        <input type="checkbox" class="custom-control-input" id="exampleCheck1">
-                                        <label class="custom-control-label" for="exampleCheck1">Remember</label>
-                                    </div>
-                                    <a href="#" class="float-left forgot-link">Forgot password?</a>
+                                   <!--<div class="custom-control custom-checkbox form-group">-->
+                                    <!--    <input type="checkbox" class="custom-control-input" id="exampleCheck1">-->
+                                    <!--    <label class="custom-control-label" for="exampleCheck1">Remember</label>-->
+                                    <!--</div>-->
                                     <button type="submit" class="btn btn-primary float-right m-l-xxs">Sign In</button>
                                 </form>
                             </div>
