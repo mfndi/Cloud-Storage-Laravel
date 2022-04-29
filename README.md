@@ -18,9 +18,11 @@ DB_PORT=3306
 DB_DATABASE=NAMA_DATABASE
 DB_USERNAME=USERNAME_DATABASE
 DB_PASSWORD=PASSWORD_DATABASE
-<pre>php artisan key:generate</pre>
 </pre>
-    Setelah itu jalankan perintah <pre>php artisan migrate:fresh</pre>
+    Setelah itu jalankan perintah
+    <pre>php artisan key:generate</pre>
+    dan
+    <pre>php artisan migrate:fresh</pre>
     </li>
 <li>Bisa juga kalian meng-import database yang sudah saya sediakan pada repositori</li>
 <li>Buka file .env kembali setelah itu edit pada bagian 
