@@ -92,8 +92,8 @@
                 })
                 .then((willDelete) => {
                 if (willDelete) {
-                    $value = `/dashboard/file-manager/${nameFile}`;
-                    let exSub = $("#dataform").attr("action", $value);
+                    let value = `/dashboard/file-manager/${nameFile}`;
+                    let exSub = $("#dataform").attr("action", value);
                     exSub.submit();
                 } else {
                     swal("Batal Menghapus Data File");
