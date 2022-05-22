@@ -8,7 +8,7 @@ namespace App\Helpers;
 // --}}
 class ByteForHuman
 {
-    function readableBytes($bytes) {
+   static function readableBytes($bytes) {
         $i = floor(log($bytes) / log(1024));
         $sizes = array('B', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB');
     
